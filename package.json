@@ -22,8 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build-themes": "devextreme build",
-    "postinstall": "npm run build-themes",
-    "postbuild": "node ftp.js"
+    "postinstall": "npm run build-themes"
   },
   "eslintConfig": {
     "extends": [
